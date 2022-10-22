@@ -1,0 +1,206 @@
+/* Setting fade transition and default settings */
+body {
+    color: #000;
+    background-color: #f4f4f4;
+    transition: background-color 1s ease;
+    scroll-snap-type: y mandatory;
+  }
+  .header{
+    font-family: 'Poppins', sans-serif;
+    left: 15px;
+    top: 1px;
+    position: fixed;
+}
+
+.sidenote{
+    position: fixed;
+    bottom: 70px;
+    width: 340px;
+    line-height: 1.7;
+    font-family: 'Poppins', sans-serif;
+    left: 25px;
+}
+.copyright{
+    position: fixed;
+    bottom: 50px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-size: 15px;
+    left: 25px;
+    color: #fff;
+}
+
+.pp{
+    position: fixed;
+    bottom: 20px;
+    left: 25px;
+    margin-bottom: 0;
+    font-family: system-ui;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.pp:hover{
+    cursor: pointer;
+}
+
+.info{
+    position: fixed;
+    right: 30px;
+    text-decoration: underline;
+}
+.info:hover{
+    cursor: pointer;
+}
+
+.shades{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    color: black;
+    font-family: 'Poppins';
+    font-size: medium;
+    text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+a:active, a:visited{
+    color: #fff;
+}
+  
+  
+  .panel {
+    scroll-snap-align: center;
+  }
+
+  .item1{
+    scroll-snap-align: start; 
+    /* background-color: rgb(126, 126, 244); */
+    align-items: center;
+    height: 100vh;
+    
+}
+.love-1{
+    position: relative;
+    box-shadow: 1px 5px 15px black;
+    width: 400px;
+    height: 500px;
+    left: 530px;
+    top: 80px;
+    object-fit: cover
+}
+.friendship{
+    position: relative;
+    font-family: 'Island Moments', cursive;
+    color: #fff;
+    left: 650px;
+    bottom: 480px;
+    font-size: 130px;
+    z-index: 1;
+}
+
+.item2{
+    scroll-snap-align: start; 
+   /* background-color: rgb(241, 152, 107); */
+   align-items: center;
+   height: 100vh;
+}
+.mentor{
+   position: relative;
+   font-family: 'Island Moments', cursive;
+   color: #fff;
+   left: 800px;
+   bottom: 180px;
+   font-size: 130px;
+   z-index: 1;
+}
+.item3{
+   scroll-snap-align: start;
+   /* background-color: rgb(236, 154, 222); */
+   align-items: center;
+   height: 100vh;
+}
+.love{
+   position: relative;
+   font-family: 'Island Moments', cursive;
+   color: #fff;
+   left: 800px;
+   bottom: 380px;
+   font-size: 130px;
+   z-index: 1;
+}
+.item4{
+   scroll-snap-align: start;
+   /* background-color: rgb(225, 152, 112); */
+   align-items: center;
+   height: 100vh;
+}
+.son{
+   position: relative;
+   font-family: 'Island Moments', cursive;
+   color: #fff;
+   left: 800px;
+   bottom: 180px;
+   font-size: 130px;
+   z-index: 1;
+}
+
+.item5{
+   scroll-snap-align: start;
+   /* background-color: rgb(242, 143, 143); */
+   align-items: center;
+   height: 100vh;
+}
+
+.sensei{
+   position: relative;
+   font-family: 'Island Moments', cursive;
+   color: #fff;
+   left: 800px;
+   bottom: 180px;
+   font-size: 130px;
+   z-index: 1;
+}
+  
+  /* colours */
+  .color-violet {
+    background-color: #874bcb;
+  }
+  .color-indigo {
+    background-color: #4332CF;
+  }
+  .color-blue {
+    background-color: #2F8FED;
+  }
+  .color-green {
+    background-color: #4DCF42;
+  }
+  .color-yellow {
+    background-color: #FAEB33;
+  }
+  /* styling for demo, can ignore */
+  body {
+    text-align: center;
+    font-size: 120%;
+    line-height: 1.618;
+  }
+  h1, h2 {
+    font-size: 3em;
+    letter-spacing: -0.05em;
+    line-height: 1.1;
+  }
+  p {
+    max-width: 30em;
+    margin-bottom: 1.618em;
+  }
+  a {
+    color: #4332CF;
+  }
